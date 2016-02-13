@@ -5,6 +5,8 @@ include(CMakeConfig.txt)
 project(pilight)
 set(VERSION 7.0)
 
+add_definitions("-fomit-frame-pointer")
+
 set(MODULESPACK OFF)
 set(CMAKE_BUILD_TYPE Debug)
 
